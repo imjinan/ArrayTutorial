@@ -54,7 +54,7 @@ public class ArrayTutorial {
         }*/
 
         //searching an string value from a string array
-        String[] fruits;
+       /* String[] fruits;
         int size;
         String target;
         boolean istrue = false;
@@ -86,7 +86,18 @@ public class ArrayTutorial {
                 System.out.println("something wrong");
 
         }
-        sc.close();
+        sc.close();*/
+        // 2d Array
+        String[] fruits = {"apple", "banana", "pear"};
+        String[] cars = {"tata", "polo", "nexa"};
+        String[] perfume = {"marj", "gissah", "noir", "bin"};
+
+        String[][] combine = {fruits, cars, perfume};
+        for (int i = 0;i<combine.length; i++){
+            for (int j = 0;j< combine[i].length;j++){
+                System.out.println(combine[i][j]);
+            }
+        }
 
         }
         }
