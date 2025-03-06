@@ -59,7 +59,7 @@ public class ArrayTutorial {
         String target;
         boolean istrue = false;
         Scanner sc = new Scanner(System.in);
-        System.out.print("enter the array size: ");
+        System.out.print("enter the array size please : ");
         size = sc.nextInt();
         sc.nextLine();
         System.out.print("enter target ");
